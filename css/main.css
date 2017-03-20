@@ -10,8 +10,7 @@
     display: table-header-group; }
   .block-fill-height .block-body {
     text-align: center;
-    display: table-row-group;
-    padding-bottom: 130px; }
+    display: table-row-group; }
   .block-fill-height .block-footer {
     display: table-footer-group; }
   .block-fill-height .block-inner {
@@ -36,8 +35,9 @@
 
 .block-nav {
   display: table-cell;
-  width: calc(85%);
-  text-align: right; }
+  width: 550px;
+  text-align: right;
+  padding-left: 400px; }
 
 .block-caption_h4 {
   padding-bottom: 30px;
