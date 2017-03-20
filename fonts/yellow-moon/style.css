@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'yellow-moon';
+  src:  url('fonts/yellow-moon.eot?r0a3sz');
+  src:  url('fonts/yellow-moon.eot?r0a3sz#iefix') format('embedded-opentype'),
+    url('fonts/yellow-moon.ttf?r0a3sz') format('truetype'),
+    url('fonts/yellow-moon.woff?r0a3sz') format('woff'),
+    url('fonts/yellow-moon.svg?r0a3sz#yellow-moon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'yellow-moon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-T3OVNspKtq:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+

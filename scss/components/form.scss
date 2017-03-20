@@ -1,0 +1,57 @@
+.form-set form {
+	display: inline-block;
+	padding-bottom: 110px;
+}
+
+
+
+.form-set input {
+	display: inline-block;
+	font-family: 'Roboto-Light';
+	background-color: #ffe600;
+	border: none;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000;
+	width: 463px;
+	padding: 6px 10px;
+	resize: none;
+	margin: 10px 10px;
+}
+
+.form-set textarea {
+	display: inline-block;
+	font-family: 'Roboto-Light';
+	background-color: #ffe600;
+	border: none;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000	;
+	width: 463px;
+	padding: 6px 10px;
+	resize: none;
+	margin: 10px 10px;
+}
+
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}
+
+.subject input,
+.subject textarea {
+	width: 970px;
+}
+
+.form-set .message input,
+.form-set .message textarea {
+	width: 970px;
+}
+
+.name {
+	display: inline-block;
+}
+
+.mail {
+	display: inline-block;
+}

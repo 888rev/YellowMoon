@@ -1,0 +1,82 @@
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'yellow-moon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-T3OVNspKtq:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+
+
+
+.block-nav a {    
+    display: inline-block;
+    color: #a5a5a5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 13px 15px;
+
+    &:hover {
+        font-weight: bold;
+        color: #232326;
+        text-decoration: none;
+        border: 1px solid #ffe600;
+    }
+}
+
+
+h1 {
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h4 {
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.social_icons a {
+    border: none;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        color: #ffe600;
+    }
+}

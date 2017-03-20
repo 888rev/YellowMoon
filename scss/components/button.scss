@@ -1,0 +1,70 @@
+$btn-color: #333 !default;
+$btn-font-size: 16px !default;
+$btn-bg: #ddd !default;
+$btn-border: 1px solid $btn-bg !default;
+$btn-border-radius: 4px !default;
+$btn-padding: 10px 20px !default;
+
+$btn-color-hover:  #333 !default;
+$btn-bg-hover: #ddd !default;
+$btn-border-color-hover: $btn-bg !default;
+
+@mixin btn-variants( 
+    $color, 
+    $bg, 
+    $border, 
+    $color-hover: lighten($color, 10%), 
+    $bg-hover: lighten($bg, 10%), 
+    $border-hover: lighten($border, 10%)
+    ) {
+    color: $color;
+    background: $bg;
+    border-color: $border;
+    &:hover {
+        color: $color-hover;
+        background: $bg-hover;
+        border-color: $border-hover;
+    }
+}
+
+@mixin btn-size($font-size, $padding, $radius: $btn-border-radius){
+    font-size: $font-size;
+    padding: $padding;
+    border-radius: $radius;
+}
+
+.btn {
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    font-weight: normal;
+    color: #fff;
+    font-size: $btn-font-size;
+    background: #89898b;
+    border: 1px solid #ffe600;
+    padding: 23px 88px;
+    margin: 110px 0 50px 0;
+
+    &:hover {
+        color: #fff;
+        background: #424245;
+        border-color: #ffe600;
+    }
+}
+
+.button {
+    cursor: pointer;
+    margin-left: 10px;
+    line-height: 50px;
+    background: #000;
+    color: #ffe600;
+    border: none;
+    width: 990px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #ffe600;
+        background: #424245;
+        border-color: #ffe600;
+    }
+}

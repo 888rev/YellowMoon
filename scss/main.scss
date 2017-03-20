@@ -1,0 +1,74 @@
+@import "components/block";
+@import "components/background";
+@import "components/button";
+@import "components/type";
+@import "components/form";
+
+
+
+body {
+	margin: 0;
+	font-family: 'Roboto-Light';
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+.container_item {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container_ico {
+	padding-bottom: 130px;
+	width: 1086px;
+	margin: 0 auto;
+}
+
+.small-container {
+	width: 980px;
+	margin: 0 auto;
+	padding: 50px 10px;
+}
+
+.logo_nav_box {
+	margin: 0 auto;
+}
+
+.logo_nav {
+	line-height: 120px;
+}
+
+.block-logo img {
+	vertical-align: middle;
+}
+.block-header {
+	border-bottom: 1px solid #ffe600;
+}
+
+.feature_list {
+	padding-bottom: 150px;
+}
+
+.footer {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.copy {
+	display: inline-block;
+}
+
+.social_icons {
+	margin: 0;
+	display: inline-block;
+	width: calc(70%);
+    text-align: right;
+}
+
+.social {
+	display: inline-block;
+	padding: 0 20px;
+}
